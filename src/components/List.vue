@@ -30,7 +30,7 @@ export default {
             list: [],
             loading: 'Loading...',
             error: '',
-            errorDefault: 'Error =(',
+            errorDefault: 'Error...',
             showLoading: true,
             showError: false,
             showList: false
@@ -64,9 +64,36 @@ export default {
                     setTimeout(()=> {
                         this.showContent('list');
                         this.list = [
-                            'Uranium',
-                            'Selenium',
-                            'Argentum',
+                            'Almandine',
+                            'Iron ore',
+                            'Afganite',
+                            'Columbite',
+                            'Magnetite',
+                            'Actinolite',
+                            'Almandine',
+                            'Iron ore',
+                            'Afganite',
+                            'Columbite',
+                            'Magnetite',
+                            'Actinolite',
+                            'Almandine',
+                            'Iron ore',
+                            'Afganite',
+                            'Columbite',
+                            'Magnetite',
+                            'Actinolite',
+                            'Almandine',
+                            'Iron ore',
+                            'Afganite',
+                            'Columbite',
+                            'Magnetite',
+                            'Actinolite',
+                            'Almandine',
+                            'Iron ore',
+                            'Afganite',
+                            'Columbite',
+                            'Magnetite',
+                            'Actinolite',
                         ];
                     }, 1000);
                 });
